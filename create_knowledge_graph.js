@@ -1,11 +1,9 @@
 import data from './data.json' assert { type: 'json' };
 
-var nodes = []
-var edges = []
-
 const knowledge_graph_json = JSON.parse(JSON.stringify(data));
 
-console.log(knowledge_graph_json)
+var nodes = []
+var edges = []
 
 for (const index in knowledge_graph_json['entities']) {
     nodes.push({
