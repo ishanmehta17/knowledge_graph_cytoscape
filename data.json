@@ -1,0 +1,92 @@
+{
+	"entities": [{
+		"label": "Organization",
+		"title": "Neuralink"
+	}, {
+		"label": "Organization",
+		"title": "SpaceX"
+	}, {
+		"label": "Organization",
+		"title": "Pretoria"
+	}, {
+		"label": "Organization",
+		"title": "The Boring Company"
+	}, {
+		"label": "Organization",
+		"title": "University of Pretoria"
+	}, {
+		"label": "Organization",
+		"title": "Stanford University"
+	}, {
+		"label": "Person",
+		"title": "Jeff Bezos"
+	}, {
+		"label": "Organization",
+		"title": "University of Pennsylvania"
+	}, {
+		"label": "Person",
+		"title": "Kimbal Musk"
+	}, {
+		"label": "Organization",
+		"title": "Tesla, Inc."
+	}, {
+		"label": "Person",
+		"title": "Elon Musk"
+	}],
+	"relations": [{
+		"source": "Elon Musk",
+		"target": "Neuralink"
+	}, {
+		"source": "Tesla, Inc.",
+		"target": "Elon Musk",
+		"type": "owned by"
+	}, {
+		"source": "Elon Musk",
+		"target": "University of Pennsylvania",
+		"type": "residence"
+	}, {
+		"source": "Elon Musk",
+		"target": "Tesla, Inc.",
+		"type": "owned by"
+	}, {
+		"source": "The Boring Company",
+		"target": "Tesla, Inc.",
+		"type": "owned by"
+	}, {
+		"source": "Elon Musk",
+		"target": "Kimbal Musk",
+		"type": "sibling"
+	}, {
+		"source": "University of Pennsylvania",
+		"target": "Elon Musk",
+		"type": "residence"
+	}, {
+		"source": "The Boring Company",
+		"target": "Neuralink",
+		"type": "subsidiary"
+	}, {
+		"source": "Elon Musk",
+		"target": "University of Pretoria",
+		"type": "work location"
+	}, {
+		"source": "The Boring Company",
+		"target": "Elon Musk",
+		"type": "owned by"
+	}, {
+		"source": "Kimbal Musk",
+		"target": "Elon Musk",
+		"type": "sibling"
+	}, {
+		"source": "Neuralink",
+		"target": "Elon Musk",
+		"type": "owned by"
+	}, {
+		"source": "Elon Musk",
+		"target": "The Boring Company",
+		"type": "owned by"
+	}, {
+		"source": "Elon Musk",
+		"target": "University of Pennsylvania",
+		"type": "work location"
+	}]
+}
