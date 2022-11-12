@@ -1,6 +1,13 @@
-import data from './data.json' assert { type: 'json' };
+var knowledge_graph_json = {};
 
-const knowledge_graph_json = JSON.parse(JSON.stringify(data));
+// https://javascript.info/fetch
+let response = await fetch('./data.json');
+
+if (response.ok) { // if HTTP-status is 200-299
+  knowledge_graph_json = await response.json();
+} else {
+  alert("HTTP-Error: " + response.status);
+}
 
 var nodes = []
 var edges = []
